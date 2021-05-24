@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <script src="https://kit.fontawesome.com/df596957de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div>
+       <div class="mx-auto">
+           
+           <!-- navigation -->
+           <nav class="flex items-center justify-between px-6 mt-4">
+               <!-- logo -->
+               <a href=""><img src="logo.svg" alt="" class="w-32"></a>
+               <!-- nav-items -->
+                <ul class="hidden md:flex md:list-none">
+                    <li class="mr-6 capitalize flex flex-col">
+                        <a href="" class="link">products</a>
+                    </li>
+                    <li class="mr-6 capitalize">
+                        <a href="" class="link">pricing</a>  
+                    </li>
+                    <li class="mr-6 capitalize">
+                        <a href="" class="link">solutions</a>
+                    </li>
+                    <li class="mr-6 capitalize">
+                        <a href="" class="link">customers</a>
+                    </li>
+                    <li class="mr-6 capitalize">
+                        <a href="" class="link">resources</a>
+                    </li>
+                </ul>
+
+                
+                
+                <!-- menu -->
+                <div class="md:hidden menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </div>
+                <!-- login -->
+                <div class="hidden md:flex z-20">
+                    <div class="flex mr-6 items-center">
+                        <i class="fas fa-lock text-purple-700 mr-2"></i>
+                        <a href="" class="capitalize">login</a>
+                    </div>
+                    <div>
+                        <button class="border border-none bg-purple-700 px-3 py-1 text-white capitalize">schedule a demo</button>
+                    </div>
+                </div>
+           </nav>
+
+           
+            <!-- navbar-sm -->
+            <div class="hidden md:hidden items">
+                <div class="bg-white border rounded-xl mx-4">
+                    <!-- products -->
+                    <div class="mt-8 pl-8 border-b-2 border-gray-200 pb-5">
+                        <h2 class="text-lg font-medium mb-5">Products</h2>
+                        <ul>
+                            <li class="text-blue-700 mb-3">Subscription Management</li>
+                            <li class="text-blue-700 mb-3">Billing Automation</li>
+                            <li class="text-blue-700 mb-3">Recurring Payments</li>
+                            <li class="text-blue-700 mb-3">Accounting & Taxes</li>
+                            <li class="text-blue-700 mb-3">Reporting & Analytics</li>
+                        </ul>
+                    </div>
+                    <!-- solutions -->
+                    <div class="mt-8 pl-8 border-b-2 border-gray-200 pb-5">
+                        <h2 class="text-lg font-medium mb-5">Solutions</h2>
+                        <div class="grid grid-cols-2 gap-10">
+                            <div>
+                                <h3 class="text-sm font-medium mb-5">BY ROLE</h3>
+                                <ul>
+                                    <li class="text-blue-700 mb-3">Finance</li>
+                                    <li class="text-blue-700 mb-3">Sales</li>
+                                    <li class="text-blue-700 mb-3">RevOps</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-medium mb-5">BY INDUSTRY</h3>
+                                <ul>
+                                    <li class="text-blue-700 mb-3">B2B SaaS</li>
+                                    <li class="text-blue-700 mb-3">Ecommerce</li>
+                                    <li class="text-blue-700 mb-3">E-learning</li>
+                                    <li class="text-blue-700 mb-3">Publishing</li>
+                                    <li class="text-blue-700 mb-3">Video & OTT</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-medium mb-5">BY STRATEGY</h3>
+                                <ul>
+                                    <li class="text-blue-700 mb-3">Roll Out New Pricing</li>
+                                    <li class="text-blue-700 mb-3">Expand Globally</li>
+                                    <li class="text-blue-700 mb-3">Move Upmarket</li>
+                                    <li class="text-blue-700 mb-3">Shift to Subscriptions</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-medium mb-5">BY BUSINESS SIZE</h3>
+                                <ul>
+                                    <li class="text-blue-700 mb-3">Startup</li>
+                                    <li class="text-blue-700 mb-3">ScaleUp</li>
+                                    <li class="text-blue-700 mb-3">Enterprise</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-medium mb-5">BY BUSINESS MODEL</h3>
+                                <ul>
+                                    <li class="text-blue-700 mb-3">Self-serve</li>
+                                    <li class="text-blue-700 mb-3">Sales-driven</li>
+                                    
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-medium mb-5">BY GEOGRAPHY</h3>
+                                <ul>
+                                    <li class="text-blue-700 mb-3">Europe</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- customers -->
+                    <div>
+                        <div class="pl-8">
+                            <h2 class="text-lg font-medium mb-5">Customers</h2>
+                        </div>
+                        <div class="pl-8">
+                            <h2 class="text-lg font-medium mb-5">Resources</h2>
+                        </div>
+                        <div class="pl-8">
+                            <h2 class="text-lg font-medium mb-5">Pricing</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+           <!-- main -->
+           <style>
+            .carousel-open:checked+.carousel-item {
+              position: static;
+              opacity: 100;
+            }
+          
+            .carousel-item {
+              -webkit-transition: opacity 0.6s ease-out;
+              transition: opacity 0.6s ease-out;
+            }
+          
+            #carousel-1:checked~.control-1,
+            #carousel-2:checked~.control-2,
+            #carousel-3:checked~.control-3 {
+              display: block;
+            }
+          
+            .carousel-indicators {
+              list-style: none;
+              margin: 0;
+              padding: 0;
+              position: absolute;
+              bottom: 2%;
+              left: 0;
+              right: 0;
+              text-align: center;
+              z-index: 10;
+            }
+          
+            #carousel-1:checked~.control-1~.carousel-indicators li:nth-child(1) .carousel-bullet,
+            #carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet,
+            #carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet {
+              color: #2b6cb0;
+              /*Set to match the Tailwind colour you want the active one to be */
+            }
+          </style>
+          
+          <div class="carousel relative rounded relative overflow-hidden shadow-xl">
+            <div class="carousel-inner relative overflow-hidden w-full">
+              <!--Slide 1-->
+              <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+                checked="checked">
+        
+               <div class="carousel-item absolute opacity-0 bg-center" style="height:500px; ">
+                <!-- card-1 -->
+                <div class="mt-10 md:mt-28 w-11/12 mx-auto ">
+                    <div class="flex flex-col-reverse md:flex md:flex-row h-full">
+                         <div class="w-full md:w-1/2  text-left">
+                             <h1 class="text-3xl md:text-5xl font-semibold capitalize">The revenue engine that powered MakeSpace to launch a B2B model overnight.</h1>
+                             <p class="text-sm md:text-lg mt-5 md:mt-10 capitalize">Chargebee is the subscription billing and revenue management platform that lets you solve for your today, and scale for your tomorrow.</p>
+                             
+                             
+                         </div>
+                         <div class="w-full md:mt-5 md:w-1/2 ">
+                             <div class="">
+                                 <div class="bg-gradient-to-r from-gray-100 to-gray-400 rounded-3xl">
+                                     <img src="rahul-gandhi.png" alt="" class="w-64 mx-auto ">
+                                 </div>
+                             </div>
+                                 
+                         </div>
+                    </div>
+                     <div class="hidden md:flex md:flex-row mt-10 text-lg">
+                     <button class="border border-none capitalize font-medium rounded-full px-4 py-2 bg-purple-700 text-lg text-white mb-4 md:mb-0 md:mr-4">schedule a demo </button>
+                     <button class="border border-gray-700 capitalize rounded-full px-4 py-2 font-medium">signup for free</button>
+                 </div> 
+                </div>
+              </div> 
+              <label for="carousel-3"
+                class="control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto flex justify-center content-center"><i
+                  class="fas fa-angle-left mt-3"></i></label>
+              <label for="carousel-2"
+                class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                  class="fas fa-angle-right mt-3"></i></label>
+          
+              <!--Slide 2-->
+              <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+              <div class="carousel-item absolute opacity-0 bg-center" style="height:500px; ">
+                <!-- card-2 -->
+                <div class="mt-10 md:mt-28 w-11/12 mx-auto ">
+                    <div class="flex flex-col-reverse md:flex md:flex-row h-full">
+                         <div class="w-full md:w-1/2  text-left">
+                             <h1 class="text-3xl md:text-5xl font-semibold capitalize">The subscription management platform that enabled Slidebean to slide into 30+ countries.</h1>
+                             <p class="text-sm md:text-lg mt-5 md:mt-10 capitalize">Chargebee is the subscription billing and revenue management platform that lets you solve for your today, and scale for your tomorrow.</p>
+                             
+                             
+                         </div>
+                         <div class="w-full md:mt-5 md:w-1/2 ">
+                             <div class="">
+                                 <div class="bg-gradient-to-r from-gray-100 to-gray-400 rounded-3xl">
+                                     <img src="jose-bolanos.png" alt="" class="w-64 mx-auto ">
+                                 </div>
+                             </div>
+                                 
+                         </div>
+                    </div>
+                    <div class="hidden md:flex md:flex-row mt-10 text-lg">
+                     <button class="border border-none capitalize font-medium rounded-full px-4 py-2 bg-purple-700 text-lg text-white mb-4 md:mb-0 md:mr-4">schedule a demo </button>
+                     <button class="border border-gray-700 capitalize rounded-full px-4 py-2 font-medium">signup for free</button>
+                 </div>
+                </div>
+              </div>
+              <label for="carousel-1"
+                class=" control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+                  class="fas fa-angle-left mt-3"></i></label>
+              <label for="carousel-3"
+                class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                  class="fas fa-angle-right mt-3"></i></label>
+          
+              <!--Slide 3-->
+              <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+              <div class="carousel-item absolute opacity-0" style="height:500px; ">
+                <!-- card-3 -->
+                <div class="mt-10 md:mt-28 w-11/12 mx-auto ">
+                    <div class="flex flex-col-reverse md:flex md:flex-row h-full">
+                         <div class="w-full md:w-1/2  text-left">
+                             <h1 class="text-3xl md:text-5xl font-semibold capitalize">The billing platform that gives Superfoods the freedom to test, iterate, and roll-back.</h1>
+                             <p class="text-sm md:text-lg mt-5 md:mt-10 capitalize">Chargebee is the subscription billing and revenue management platform that lets you solve for your today, and scale for your tomorrow.</p>
+                             
+                             
+                         </div>
+                         <div class="w-full md:mt-5 md:w-1/2 ">
+                             <div class="">
+                                 <div class="bg-gradient-to-r from-gray-100 to-gray-400 rounded-3xl">
+                                     <img src="paul-kapsner.png" alt="" class="w-64 mx-auto ">
+                                 </div>
+                             </div>
+                                 
+                         </div>
+                    </div>
+                    <div class="hidden md:flex md:flex-row mt-10 text-lg">
+                     <button class="border border-none capitalize font-medium rounded-full px-4 py-2 bg-purple-700 text-lg text-white mb-4 md:mb-0 md:mr-4">schedule a demo </button>
+                     <button class="border border-gray-700 capitalize rounded-full px-4 py-2 font-medium">signup for free</button>
+                 </div>
+                </div>
+              </div>
+              <label for="carousel-2"
+                class="control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+                  class="fas fa-angle-left mt-3"></i></label>
+              <label for="carousel-1"
+                class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                  class="fas fa-angle-right mt-3"></i></label>
+          
+              <!-- Add additional indicators for each slide-->
+              <ol class="carousel-indicators">
+                <li class="inline-block mr-3">
+                  <label for="carousel-1"
+                    class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                </li>
+                <li class="inline-block mr-3">
+                  <label for="carousel-2"
+                    class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                </li>
+                <li class="inline-block mr-3">
+                  <label for="carousel-3"
+                    class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                </li>
+              </ol>
+          
+            </div>
+          </div>
+
+          <!-- button -->
+          <div class="mt-10 flex flex-col md:hidden">
+            <button class="border border-none capitalize font-medium rounded-full px-4 py-2 bg-purple-700 text-lg text-white mb-4 md:mb-0 md:mr-4">schedule a demo </button>
+            <button class="border border-gray-700 capitalize rounded-full px-4 py-2 font-medium">signup for free</button>
+        </div>
+
+           <!-- scrolling -->
+            <div class="flex w-full md:w-3/5 mx-auto my-10 md:my-40">
+                <marquee behavior="scroll" direction="left" scrollamount="8">
+                    <img src="scroll.png" alt="" class="md:h-20">
+                </marquee>
+            </div>
+
+           <!-- cards -->
+
+           <div class="w-10/12  mx-auto mt-16">
+                <div class="flex flex-col md:flex md:flex-row">
+                    <div class="w-full md:w-1/3">
+                        <h2 class="text-3xl font-semibold mb-4">Designed to go Beyond Billing.</h2>
+                        
+                        <p class="mb-20 text-lg text-gray-700">Get the freedom to experiment, launch, and scale strategies as fast as you can think of them.</p>
+                        <div class="hidden md:flex md:transform md:-rotate-6 md:relative">
+                            <div class="border rounded-2xl bg-purple-200 opacity-60 w-40 h-40 z-30 animate-bounce-slow absolute top-24 -left-14 shadow-xl">
+                            </div>
+                            <div class="border rounded-2xl bg-gradient-to-b from-purple-300 to-purple-500 opacity-60 w-52 h-52 z-10 animate-bounce-slow absolute shadow-2xl">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid -->
+                    <div class="hidden md:flex-grow md:px-4 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-10">
+                        
+                            <div class="bg-white w-max h-max p-10 shadow-2xl transition duration-300 transform hover:-translate-y-6">
+                                <a href="" class="">
+                                    <img src="rethink-pricing.svg" alt="" class="mb-4">
+                                    <h2 class="mb-4 text-lg font-semibold">Rethink Pricing</h2>
+                                    <p class="mb-4 text-gray-600">Pricing models.Grandfathering, <br> One-click roll-back. Doesn't get <br> easier!</p>
+                                    <p class="text-right text-blue-700 font-medium">Learn more.</p>
+                                </a>
+                            </div>
+                            <div class="bg-white w-max h-max p-10 shadow-2xl transition duration-300 transform hover:-translate-y-6">
+                                <a href="">
+                                    <img src="scale-globally.svg" alt="" class="mb-4">
+                                    <h2 class="mb-4 text-lg font-semibold">Scale Globally</h2>
+                                    <p class="mb-4 text-gray-600">Currencies,Compilance & taxes, <br>all handled already! </p>
+                                    <p class="text-right text-blue-700 font-medium">Learn more.</p>
+                                </a>
+                            </div>
+                            <div class=" bg-white w-max h-max p-10 shadow-2xl transition duration-300 transform hover:-translate-y-6">
+                                <a href="">
+                                    <img src="capture-new-segments.svg" alt="" class="mb-4">
+                                    <h2 class="mb-4 text-lg font-semibold">Capture New Segments</h2>
+                                    <p class="mb-4 text-gray-600">March upmarket, go product-led, <br>and everywhere between.</p>
+                                    <p class="text-right text-blue-700 font-medium">Learn more.</p>
+                                </a>
+                            </div>
+                            <div class="bg-white w-max h-max p-10 shadow-2xl transition duration-300 transform hover:-translate-y-6">
+                                <a href="">
+                                    <img src="launch-into-subscriptions.svg" alt="" class="mb-4">
+                                    <h2 class="mb-4 text-lg font-semibold">Launch into Subscriptions</h2>
+                                    <p class="mb-4 text-gray-600">pilot a recurring revenue model <br> without breaking what's <br> working.</p>
+                                    <p class="text-right text-blue-700 font-medium">Learn more.</p>
+                                </a>
+                            </div>
+                        
+                    </div>
+                    <!-- grid-sm -->
+                    <div class="flex-grow px-4 grid grid-rows-2 gap-y-12 md:hidden">
+                        <div class="bg-white w-max h-max p-10 shadow-xl transition duration-300 transform hover:-translate-y-6">
+                            <a href="" class="">
+                                <img src="rethink-pricing.svg" alt="" class="mb-4">
+                                <h2 class="mb-4 text-lg font-semibold">Rethink Pricing</h2>
+                                <p class="mb-4 text-gray-600">Pricing models.Grandfathering, <br> One-click roll-back. Doesn't get <br> easier!</p>
+                                <p class="text-right text-blue-700 font-medium">Learn more.</p>
+                            </a>
+                        </div>
+                        <div class="bg-white w-max h-max p-10 shadow-xl transition duration-300 transform hover:-translate-y-6">
+                            <a href="">
+                                <img src="scale-globally.svg" alt="" class="mb-4">
+                                <h2 class="mb-4 text-lg font-semibold">Scale Globally</h2>
+                                <p class="mb-4 text-gray-600">Currencies,Compilance & taxes, <br>all handled already! </p>
+                                <p class="text-right text-blue-700 font-medium">Learn more.</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    
+                </div>
+           </div>
+           <!-- revenue -->
+           <div class="mt-32">
+
+                <div class="text-center w-full md:w-3/5 mx-auto">
+                    <h2 class="text-4xl font-semibold mb-6">Streamline Revenue Operations</h2>
+                    <p class="text-gray-600">Chargebee automates the lead-to-ledger workflow across your <br> revenue stack, so you can dream, deploy, and enjoy the breeze. <br>
+                        While the MRR just keeps rolling.</p>
+                </div>
+            </div>
+            
+            <!-- links -->
+            <div>
+                <!-- nav -->
+                <nav class="w-4/5 mx-auto my-20">
+                    <ul class="hidden md:list-none md:flex justify-around">
+                        <li class="font-semibold hover:text-indigo-600 pb-3 hover:border-b-2 hover:border-indigo-600"><a href="">Subscription Automation</a> </li>
+                        <li class="font-semibold hover:text-indigo-600 pb-3 hover:border-b-2 hover:border-indigo-600"><a href="">Billing Experiments</a> </li>
+                        <li class="font-semibold hover:text-indigo-600 pb-3 hover:border-b-2 hover:border-indigo-600"><a href="">Revenue Intelligence</a> </li>
+                        <li class="font-semibold hover:text-indigo-600 pb-3 hover:border-b-2 hover:border-indigo-600"><a href="">Extensible Platform</a> </li>
+                        <li class="font-semibold hover:text-indigo-600 pb-3 hover:border-b-2 hover:border-indigo-600"><a href="">Enterprise-Grade Security</a> </li>
+                    </ul>
+                </nav>
+                
+                <!-- link-1 -->
+                <div class="w-full md:w-3/5 mx-auto flex flex-col md:flex md:flex-row mt-20 md:mt-40">
+                    <div class="w-full md:w-1/3 mr-6 ml-3">
+                        <h2 class="text-2xl font-semibold mb-4">Automate the Order-to-Revenue Lifecycle</h2>
+                        <p class="text-md text-gray-600 mb-4">Collect recurring payments and automate your subscription billing logic - from checkout to reconciliation.</p>
+                        <ul class="mb-6">
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>Quote-to-Cash</li>
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>Trial Management</li>
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>Tax Management</li>
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>Lifecycle Automation</li>
+                        </ul>
+                        <a href="" class="text-blue-700 font-medium">Learn More</a>
+                    </div>
+                    <div class="flex-grow"><img src="img-1.svg" alt=""></div>
+                </div>
+
+                <!-- link-2 -->
+                <div class="w-full md:w-3/5 mx-auto flex flex-col md:flex md:flex-row mt-40">
+                    <div class="w-full md:w-1/3 mr-6 ml-3">
+                        <h2 class="text-2xl font-semibold mb-4">Align Billing Workflow with GTM Strategy</h2>
+                        <p class="text-md text-gray-600 mb-4">Adjust price structures, product bundles, discount management, and recovery processes to maximize revenue.</p>
+                        <ul class="mb-6">
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>Price-modeling</li>
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>Usage-based Billing</li>
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>Plan & Product Catalog</li>
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>480+ Billing Scenarios</li>
+                        </ul>
+                        <a href="" class="text-blue-700 font-medium">Learn More</a>
+                    </div>
+                    <div class="flex-grow"><img src="img-2.svg" alt=""></div>
+                </div>
+
+                <!-- link-3 -->
+                <div class="w-full md:w-3/5 mx-auto flex flex-col md:flex md:flex-row mt-40">
+                    <div class="w-full md:w-1/3 mr-6 ml-3">
+                        <h2 class="text-2xl font-semibold mb-4">Drive Decisions with 360° Revenue Reporting</h2>
+                        <p class="text-md text-gray-600 mb-4">Recognize revenue accurately, forecast business growth, and plug leaks across your order-to-revenue cycle with real-time insights.</p>
+                        <ul class="mb-6">
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>Deferred Revenue Reporting</li>
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>Revenue Recognition</li>
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>Churn Reporting</li>
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>Report Builder</li>
+                        </ul>
+                        <a href="" class="text-blue-700 font-medium">Learn More</a>
+                    </div>
+                    <div class="flex-grow"><img src="img-3.svg" alt=""></div>
+                </div>
+
+                <!-- link-4 -->
+                <div class="w-full md:w-3/5 mx-auto  flex flex-col md:flex md:flex-row mt-40">
+                    <div class="w-full md:w-1/3 mr-6 ml-3">
+                        <h2 class="text-2xl font-semibold mb-4">Scale Revenue Stack for Each Stage of Growth</h2>
+                        <p class="text-md text-gray-600 mb-4">Upgrade finance, accounting, CRM, and more, on the revenue engine that scales with you.</p>
+                        <ul class="mb-6">
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>Sales, Revenue & Marketing</li>
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>Accounting & Finance</li>
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>Support & Engagement</li>
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>Inventory & Logistics</li>
+                        </ul>
+                        <a href="" class="text-blue-700 font-medium">Learn More</a>
+                    </div>
+                    <div class="flex-grow"><img src="img-4.svg" alt=""></div>
+                </div>
+
+                <!-- link-5 -->
+                <div class="w-full md:w-3/5 mx-auto flex flex-col md:flex md:flex-row mt-40">
+                    <div class="w-full md:w-1/3 mr-6 ml-3">
+                        <h2 class="text-2xl font-semibold mb-4">Promise Secure Subscription Experiences</h2>
+                        <p class="text-md text-gray-600 mb-4">Stay compliant with the latest taxation and privacy regulations to enter and scale new markets with agility.</p>
+                        <ul class="mb-6">
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>SOC1 & SOC 2 Compliant</li>
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>GDPR Ready</li>
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>PCI-DSS Level 1</li>
+                            <li class="flex items-center text-gray-600 mt-3"><i class="far fa-check-circle mr-2 text-sm text-blue-800"></i>99.9% Uptime</li>
+                        </ul>
+                        <a href="" class="text-blue-700 font-medium">Learn More</a>
+                    </div>
+                    <div class="flex-grow">
+                        <img src="img-5.png" alt="" class="w-96">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- template -->
+            <div class="my-32">
+                <div class="flex flex-col md:flex md:flex-row items-center border rounded-xl shadow-xl w-full md:w-3/5 py-10 mx-auto">
+                    <img src="spring.svg" alt="" class="w-44 -mt-16 -ml-10 md:-ml-16 md:mt-8">
+                    <div class="ml-10">
+                        <h2 class="text-4xl font-semibold py-4">Trusted partner in 3000+ growth stories…</h2>
+                        <div class="flex flex-wrap md:flex justify-between items-center pr-10">
+        
+                            <div>
+                                <h2 class="text-3xl font-semibold">94%</h2>
+                                <p class="text-sm">Most likely to <br> recommend</p>
+                            </div>
+                            <div>
+                                <h2 class="text-3xl font-semibold">1.3</h2>
+                                <p class="text-sm">Avg. months <br>
+                                    to go live</p>
+                            </div>
+                            <div>
+                                <h2 class="text-3xl font-semibold">#1</h2>
+                                <p class="text-sm">Finance <br>
+                                    Software - 2021</p>
+                            </div>
+                            <div>
+                                <h2 class="text-3xl font-semibold">98%</h2>
+                                <p class="text-sm">Rated 4+ <br>
+                                    stars on 5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer -->
+            <div class=" mt-40">
+                <div class="bg-gradient-to-r from-indigo-800 via-purple-800 to-purple-900 flex flex-col-reverse md:flex md:flex-row">
+                    <div class="w-full md:w-1/2 px-10 py-32 ">
+                        <h2 class="text-4xl text-white leading-snug mb-4 font-semibold">Get a Demo Customized to Your Subscription Workflow</h2>
+
+                        <div class="bg-purple-900 border-none rounded-full px-2 py-2 w-max">
+                            <input type="text" placeholder="email@company.com" class="bg-purple-900">
+                            <button class="bg-indigo-500 text-white rounded-full px-3 py-2">Get Strated</button>
+                        </div>
+                    </div>
+
+                    <div class="w-1/2">
+                        <div class="mt-10 ml-10 md:-mt-20 md:ml-32">
+                            <div class="bg-white border rounded-xl w-72 h-auto p-8">
+                                <img src="man.png" alt="" class="rounded-full w-24 h-24 mb-4">
+                                <p class="mb-4 text-gray-700">Using Chargebee is also one less area we have to worry about as we scale. We know that it’ll adapt to most if not all situations that’ll come up in the future.</p>
+                                <h2 class="font-semibold mb-1">Robin Lambert,</h2>
+                                <p>Co-founder & CPO, Livestorm</p>
+                            </div>
+                        </div>
+                        <div class="hidden md:flex ml-16">
+                            <img src="calendly.svg" alt="" class="w-24 h-24 mr-6">
+                            <img src="okta.svg" alt="" class="w-24 h-24 mr-6">
+                            <img src="freshworks.svg" alt="" class="w-24 h-24 mr-6">
+                            <img src="getaccept.svg" alt="" class="w-24 h-24 mr-6">
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+
+            <!-- footer-2 -->
+
+            <div class="mt-20">
+                <div class="flex flex-col md:flex md:flex-row justify-around ml-8 md:ml-0">
+                    <div>
+                        <h2 class="text-lg font-semibold text-blue-700 mb-5">Product</h2>
+                        <ul class="list-none">
+                            <li class="transform hover:translate-x-5 mb-2"><a href="">Subscription Management</a></li>
+                            <li class="transform hover:translate-x-5 mb-2"><a href="">Recurring Billing and Invoicing</a></li>
+                            <li class="transform hover:translate-x-5 mb-2"><a href="">Recurring Payments</a></li>
+                            <li class="transform hover:translate-x-5 mb-2"><a href="">Accounting and Taxes</a></li>
+                            <li class="transform hover:translate-x-5 mb-2"><a href="">SaaS Reporting</a></li>
+                            <li class="transform hover:translate-x-5 mb-2"><a href="">Enterprise Billing</a></li>
+                            <li class="transform hover:translate-x-5 mb-2"><a href="">Integrations</a></li>
+                        </ul>
+                    </div>
+                    
+                        <div>
+                            <h2 class="text-lg font-semibold text-blue-700 mb-5">Help&Support</h2>
+                            <ul class="list-none">
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">Security</a></li>
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">FAQs</a></li>
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">Status</a></li>
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">Product Documentation</a></li>
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">API Documentation</a></li>
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">Supported Payment Gateways</a></li>
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">Site Maps</a></li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h2 class="text-lg font-semibold text-blue-700 mb-5">Resources</h2>
+                            <ul class="list-none">
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">Blog</a></li>
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">Compare Payment Gateways</a></li>
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">Tackling Payment Failures</a></li>
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">Enterprise Billing Guide</a></li>
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">Webinars</a></li>
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">Glossaries</a></li>
+                                
+                            </ul>
+                        </div>
+                    
+                        <div>
+                            <h2 class="text-lg font-semibold text-blue-700 mb-5">Company</h2>
+                            <ul class="list-none">
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">Customers</a></li>
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">Partners</a></li>
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">Careers</a></li>
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">Press</a></li>
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">Terms of Service</a></li>
+                                <li class="transform hover:translate-x-5 mb-2"><a href="">Privacy Policy</a></li>
+                                
+                            </ul>
+                        </div>
+                </div>
+                <div class="flex flex-col-reverse md:flex md:flex-row items-center md:justify-between mt-8 px-0 md:px-10">
+                    <div>
+                        <img src="chargebee-icon-orange.png" alt="" class="w-16 h-16">
+                    </div>
+                    <div class="flex mb-6">
+                        <i class="fab fa-facebook mr-4 text-xl"></i>
+                        <i class="fab fa-twitter mr-4 text-xl"></i>
+                        <i class="fab fa-youtube mr-4 text-xl"></i>
+                        <i class="fab fa-linkedin mr-4 text-xl"></i>
+                    </div>
+                </div>
+            </div>
+
+        
+            
+            
+        </div>
+    </div>
+
+    <script
+  src="http://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
